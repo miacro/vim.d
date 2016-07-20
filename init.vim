@@ -138,11 +138,12 @@ set backspace=indent,eol,start
 "show line number and column number
 set ruler 
 
-set rtp+=expand("%:p:h")
-source init-Vundle.vim
-source init-YouCompleteMe.vim
-source init-DoxygenToolkit.vim
-source init-doxygen.vim
-source init-clang-format.vim
-source init-vim-javascript.vim
-source init-vim-jsbeautify.vim
+
+let s:currentpath=expand('<sfile>:p:h')
+execute 'source '.fnameescape(s:currentpath . '/init-Vundle.vim')
+execute 'source '.fnameescape(s:currentpath . '/init-YouCompleteMe.vim')
+execute 'source '.fnameescape(s:currentpath . '/init-DoxygenToolkit.vim')
+execute 'source '.fnameescape(s:currentpath . '/init-doxygen.vim')
+execute 'source '.fnameescape(s:currentpath . '/init-clang-format.vim')
+execute 'source '.fnameescape(s:currentpath . '/init-vim-javascript.vim')
+execute 'source '.fnameescape(s:currentpath . '/init-vim-jsbeautify.vim')
