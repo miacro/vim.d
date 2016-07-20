@@ -1,4 +1,3 @@
-source ~/vim.d/Vundle.vim
 "encoding,fileencodings,fileencoding -- enc,fencs,fenc
 set encoding=utf-8
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gb2312,gbk,cp936,big5,cp936,euc-jp,euc-kr,latin1
@@ -139,9 +138,11 @@ set backspace=indent,eol,start
 "show line number and column number
 set ruler 
 
-source ~/vim.d/YouCompleteMe.vim
-source ~/vim.d/DoxygenToolkit.vim
-source ~/vim.d/doxygen.vim
-source ~/vim.d/clang-format.vim
-source ~/vim.d/vim-javascript.vim
-source ~/vim.d/vim-jsbeautify.vim
+set rtp+=expand("%:p:h")
+source init-Vundle.vim
+source init-YouCompleteMe.vim
+source init-DoxygenToolkit.vim
+source init-doxygen.vim
+source init-clang-format.vim
+source init-vim-javascript.vim
+source init-vim-jsbeautify.vim
