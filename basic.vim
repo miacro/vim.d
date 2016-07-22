@@ -95,10 +95,6 @@ map <F6> :make<CR>
 filetype plugin indent on   "filetype detecting
 set completeopt=longest,menu "disable the preview window when autocomplete
 
-"superTAB 
-let g:SuperTabRetainCompletionType=2
-
-let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 
 "tags
 if exists("tags")
