@@ -1,5 +1,5 @@
 SOURCE_DIR=`pwd`
-TARGET_DIR=${HOME}/.vim.d
+TARGET_DIR=${HOME}/.vim.me
 MAKE=make --no-print-directory
 
 reinstall:
