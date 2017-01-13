@@ -9,6 +9,8 @@ reinstall:
 install:
 	@  [[ ! -L ${TARGET_DIR} ]] && [[ ! -f ${TARGET_DIR} ]] \
 	&& ln -s ${SOURCE_DIR} ${TARGET_DIR} \
+	&& [[ ! -d ~/.vim/bundle/Vundle.vim/.git ]] \
+	&& git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim \
 	||  exit 0
 
 uninstall:
