@@ -1,5 +1,5 @@
 SOURCE_DIR=`pwd`
-TARGET_DIR=${HOME}/.vim.me
+TARGET_DIR=${HOME}/.vim.d
 MAKE=make --no-print-directory
 SHELL=/bin/bash
 
