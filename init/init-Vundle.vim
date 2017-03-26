@@ -34,6 +34,7 @@ Plugin 'git://github.com/vim-scripts/winmanager'
 Plugin 'git://github.com/Valloric/YouCompleteMe'
 Plugin 'git://github.com/rhysd/vim-clang-format'
 Plugin 'git://github.com/kana/vim-operator-user'
+Plugin 'mxw/vim-jsx'
 
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
