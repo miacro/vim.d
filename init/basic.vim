@@ -93,6 +93,7 @@ nnoremap <silent> <F3> :Grep<CR>
 map <F6> :make<CR>
 "auto completion
 filetype plugin indent on   "filetype detecting
+filetype indent on
 set completeopt=longest,menu "disable the preview window when autocomplete
 
 
