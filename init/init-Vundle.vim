@@ -36,6 +36,8 @@ Plugin 'git://github.com/kana/vim-operator-user'
 Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-pathogen'
 Plugin 'python-mode/python-mode'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
