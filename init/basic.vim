@@ -25,6 +25,8 @@ set number
 "colorscheme torte
 "colorscheme darkblue
 set background=dark
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
 colorscheme solarized
 "mouse enabled in buffers
 set mouse=a
