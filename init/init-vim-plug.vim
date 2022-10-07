@@ -11,6 +11,7 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'mbbill/undotree'
 Plug 'msanders/snipmate.vim'
 Plug 'pangloss/vim-javascript'
+Plug 'prabirshrestha/vim-lsp'
 Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
