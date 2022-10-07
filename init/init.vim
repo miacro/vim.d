@@ -1,5 +1,5 @@
 let s:currentpath=expand('<sfile>:p:h')
-execute 'source '.fnameescape(s:currentpath . '/init-Vundle.vim')
+execute 'source '.fnameescape(s:currentpath . '/init-vim-plug.vim')
 execute 'source '.fnameescape(s:currentpath . '/init-YouCompleteMe.vim')
 execute 'source '.fnameescape(s:currentpath . '/init-DoxygenToolkit.vim')
 execute 'source '.fnameescape(s:currentpath . '/init-doxygen.vim')
